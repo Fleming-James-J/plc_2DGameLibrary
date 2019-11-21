@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2DGameLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:_2DGameLibrary.Class1">
+            <summary>
+            empty class
+            </summary>
+        </member>
+        <member name="T:_2DGameLibrary.Enemy">
+            <summary>
+            Class for an Enemy that inherits from the Sprite class
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.#ctor">
+            <summary>
+            default constructor for an enemy
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.getTeamName">
+            <summary>
+            gets the team Name of the Enemy
+            </summary>
+            <returns>Team Name of the Enemy : String</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.getPlayersDestroyed">
+            <summary>
+            gets the Amount of Players the Enemies has Destroyed
+            </summary>
+            <returns>the Amount Players the Enemy has Destroyed : Int</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.setTeamName(System.String)">
+            <summary>
+            sets the Team Name of the Enemy
+            </summary>
+            <param name="teamNamein">Team Name of the Enemy : String</param>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.setPlayersDestroyed(System.Int32)">
+            <summary>
+            Sets the Amount of Players the Enemy has Destroyed
+            </summary>
+            <param name="playersDestroyedIn">the Amount of Players the Enemy has Destroyed : Int</param>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.speak">
+            <summary>
+            Overridden operator so that Enemy speaks differently to it's base class Sprite
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Enemy.attack">
+            <summary>
+            method to Allow the Enemy Attack by adding 10 to its X location
+            </summary>
+        </member>
+        <member name="T:_2DGameLibrary.Player">
+            <summary>
+            Class for a Player that inherits from the Sprite Class
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Player.#ctor">
+            <summary>
+            The default constructor for the Player
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Player.getTeamName">
+            <summary>
+            gets the Team Name of the Player
+            </summary>
+            <returns>Team Name : String</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Player.getEnemiesDestroyed">
+            <summary>
+            find out how many enemies the Player has destroyed
+            </summary>
+            <returns>Enemies Player has Destroyed : Int</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Player.setTeamName(System.String)">
+            <summary>
+            Sets the Team Name of Player
+            </summary>
+            <param name="teamNameIn">Team Name : String</param>
+        </member>
+        <member name="M:_2DGameLibrary.Player.setEnemiesDestroyed(System.Int32)">
+            <summary>
+            sets the Amount of Enemies the Player has destroyed
+            </summary>
+            <param name="enemiesDestroyedIn">Enemies Player has destroyed : Int</param>
+        </member>
+        <member name="M:_2DGameLibrary.Player.speak">
+            <summary>
+            Overridden method to allow the Players Speak be different from that of the Sprite base class
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Player.retreat">
+            <summary>
+            method to allow the player Retreat Xlocation - 10 when used
+            </summary>
+        </member>
+        <member name="T:_2DGameLibrary.Sprite">
+            <summary>
+            Class for a Sprite
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.#ctor(System.String,System.Double,System.Double,System.Boolean,System.Boolean)">
+            <summary>
+            Overloaded Constructor
+            </summary>
+            <param name="sName">Sprite Name : String</param>
+            <param name="locX">Sprite's X location : Double</param>
+            <param name="locY">Sprite's Y location : Double</param>
+            <param name="seeable">Is Sprite Visible? : Bool</param>
+            <param name="active">Is Sprite Alive? : Bool</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.getName">
+            <summary>
+            gets the name of the sprite
+            </summary>
+            <returns>Sprite name : String</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.getXLoc">
+            <summary>
+            gets the X location of the sprite
+            </summary>
+            <returns>X Location : Double</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.getYLoc">
+            <summary>
+            gets the Y location of the sprite
+            </summary>
+            <returns>Y location : Double</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.isVisible">
+            <summary>
+            Bool to see if Sprite is visible or not
+            </summary>
+            <returns>Is Sprite visible? : Bool</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.isAlive">
+            <summary>
+            Bool to see if Sprite is alive or not
+            </summary>
+            <returns>Is Sprite alive? : Bool</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.setName(System.String)">
+            <summary>
+            Set the nmae of the Sprite
+            </summary>
+            <param name="nameIn">Sprite name : String</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.setXLoc(System.Double)">
+            <summary>
+            sets the X location of the Sprite 
+            </summary>
+            <param name="xLocIn">X location of the Sprite : Double</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.setYLoc(System.Double)">
+            <summary>
+            sets the Y location of the Sprite
+            </summary>
+            <param name="yLocIn">Y location of the Sprite : Double</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.setVisible(System.Boolean)">
+            <summary>
+            sets if the sprite is visible or not
+            </summary>
+            <param name="visibleIn">is the Sprite is visible : bool</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.setAlive(System.Boolean)">
+            <summary>
+            sets if the sprite is alive or not
+            </summary>
+            <param name="aliveIn">is the Sprite is alive : Bool</param>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.speak">
+            <summary>
+            gets the sprite to say "I am a sprite"
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.jump">
+            <summary>
+            Jump increases Y location by 10
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Sprite.Location">
+            <summary>
+            Prints the current location of the sprite 
+            </summary>
+        </member>
+        <member name="T:_2DGameLibrary.Vector">
+            <summary>
+            Class for Vector Maths
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.#ctor">
+            <summary>
+            Default Constructor for the Vector
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.#ctor(System.Double,System.Double)">
+            <summary>
+            Overloaded Constructor for the Vector
+            </summary>
+            <param name="ii"> i of the Vector : Double </param>
+            <param name="jj"> j of the Vector : Double </param>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.getI">
+            <summary>
+            gets the i component of the Vector
+            </summary>
+            <returns>i component : Double</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.getJ">
+            <summary>
+            gets the j component of the Vector
+            </summary>
+            <returns>j component : Double</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.setI(System.Double)">
+            <summary>
+            sets the i component of the Vector
+            </summary>
+            <param name="iIN">i component : Double</param>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.setJ(System.Double)">
+            <summary>
+            sets the j component of the Vector
+            </summary>
+            <param name="jIN">j component : Double</param>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.printVector">
+            <summary>
+            Prints the current Vector values in i,j form
+            </summary>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.op_Addition(_2DGameLibrary.Vector,_2DGameLibrary.Vector)">
+            <summary>
+            Overloaded Operator for adding 2 vectors 
+            </summary>
+            <param name="a">First Vector : Vector</param>
+            <param name="b">Second Vector : Vector</param>
+            <returns>Result of adding the two Vectors</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.op_Multiply(_2DGameLibrary.Vector,System.Double)">
+            <summary>
+            Overloaded Operator for multiplying a Vector by a Scaler
+            </summary>
+            <param name="a">Vector : Vector</param>
+            <param name="scaler">Scaler : Double</param>
+            <returns>Vector Multiplied by Scaler : Vector</returns>
+        </member>
+        <member name="M:_2DGameLibrary.Vector.op_Multiply(System.Double,_2DGameLibrary.Vector)">
+            <summary>
+            Overloaded Operator for multiplying a Scaler by a Vector
+            </summary>
+            <param name="scaler">Scaler : Double</param>
+            <param name="a">Vector : Vector</param>
+            <returns>Scaler multiplied by Vector : Vector</returns>
+        </member>
+    </members>
+</doc>

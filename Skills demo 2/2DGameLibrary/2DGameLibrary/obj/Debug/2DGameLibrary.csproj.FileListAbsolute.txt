@@ -1,0 +1,6 @@
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\bin\Debug\2DGameLibrary.dll
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\bin\Debug\2DGameLibrary.pdb
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\obj\Debug\2DGameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\obj\Debug\2DGameLibrary.dll
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\obj\Debug\2DGameLibrary.pdb
+C:\Users\James_2\OneDrive\Comp Science 16-17\K Quille\Object Orientation\Skills demo 2\2DGameLibrary\2DGameLibrary\bin\Debug\2DGameLibrary.XML
